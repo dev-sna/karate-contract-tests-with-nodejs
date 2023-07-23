@@ -1,0 +1,6 @@
+#!/usr/bin/with-contenv sh
+
+NGINX_CONFIG_PATH="/etc/nginx/nginx.conf"
+NGINX_APP_CONFIG_PATH="mock.conf"
+
+sed -i "s/NGINX_APP_CONFIG_PATH/${NGINX_APP_CONFIG_PATH}/g" "${NGINX_CONFIG_PATH}"

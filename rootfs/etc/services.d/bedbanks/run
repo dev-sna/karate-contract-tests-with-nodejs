@@ -1,0 +1,2 @@
+#!/usr/bin/with-contenv sh
+java -jar /app/karate-0.9.1.jar -m /app/bed-banks-mock.feature -p 8083

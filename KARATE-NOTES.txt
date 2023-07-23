@@ -1,0 +1,9 @@
+NOTES: 
+Once we call the read function on a Javascript file from for our Javascript OR .feature 
+file, all the variables in that Javascript file become DIRECTLY available in our 
+current file. 
+Hence while going through the apitest repo one will observe many undeclared variables
+being used in a file. All of these variables having been declared in the v2/v3 folders.
+
+The first line of any Javascript file cannot be a comment. Otherwise the parser will throw
+a "no variable with name: response" error
